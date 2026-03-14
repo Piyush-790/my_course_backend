@@ -1,9 +1,4 @@
-const mongoose = require("mongoose");
-require('dotenv').config();
-
-console.log("Db is connected")
-mongoose.connect(process.env.MongoDb_URL);
-
+const mongoose = require('mongoose');
 const {Schema} = mongoose;
 const {ObjectId} = mongoose.Schema.Types;
 
